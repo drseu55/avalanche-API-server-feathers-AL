@@ -24,11 +24,11 @@
     "npm": ">= 3.0.0"
   },
   "scripts": {
-    "test": "npm run lint && npm run jest",
+    "test": "npm run jest",
     "lint": "eslint src/. test/. --config .eslintrc.json --fix",
     "dev": "nodemon src/",
     "start": "node src/",
-    "jest": "jest  --forceExit"
+    "jest": "jest  --forceExit --coverage"
   },
   "standard": {
     "env": [
@@ -47,6 +47,7 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "helmet": "^4.6.0",
+    "jest-openapi": "^0.14.1",
     "serve-favicon": "^2.5.0",
     "web3-utils": "^1.6.0",
     "winston": "^3.3.3"
