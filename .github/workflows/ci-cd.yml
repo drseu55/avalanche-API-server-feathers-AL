@@ -42,7 +42,7 @@ jobs:
       
     - name: Start server
       run:
-        node server.js&
+        node src/ &
 
     - name: Run tests
       run: |
