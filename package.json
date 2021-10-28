@@ -48,7 +48,10 @@
     "dotenv": "^10.0.0",
     "helmet": "^4.6.0",
     "jest-openapi": "^0.14.1",
+    "path": "^0.12.7",
     "serve-favicon": "^2.5.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
     "web3-utils": "^1.6.0",
     "winston": "^3.3.3"
   },

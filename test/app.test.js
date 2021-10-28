@@ -67,7 +67,7 @@ describe('GET /transactions/hash/{hash}', () => {
 
 describe('GET /transactions/{address}/{n}/{x}', () => {
   it('should satisfy OpenAPI spec', async () => {
-      const address = 'X-fuji1xpmx0ljrpvqexrvrj26fnggvr0ax9wm32gaxmx';
+      const address = 'X-fuji18kxpk7w00eg36jw6lusvkrwkwc6002zusl3356';
       const n = 10;
       const x = 5;
       const res = await axios.get(`http://localhost:4444/transactions/${address}/${n}/${x}`)
